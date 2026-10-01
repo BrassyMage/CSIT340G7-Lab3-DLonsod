@@ -1,3 +1,12 @@
+const course = {
+  name: 'CSIT340 - Industry Elective 1',
+  parts: [
+    { name: 'CSIT321 - Applications Development and Emerging Technologies', exercises: 3 },
+    { name: 'CSIT327 - Information Management 2', exercises: 3 },
+    { name: 'CSITELEC1 - CSIT Elective 1', exercises: 3 },
+  ],
+}
+
 const Header = (props) => {
   return <h1>{props.course}</h1>
 }
@@ -29,15 +38,6 @@ const Total = (props) => {
 }
 
 const App = () => {
-  const course = {
-    name: 'CSIT340 - Industry Elective 1',
-    parts: [
-      { name: 'CSIT321 - Applications Development and Emerging Technologies', exercises: 3 },
-      { name: 'CSIT327 - Information Management 2', exercises: 3 },
-      { name: 'CSITELEC1 - CSIT Elective 1', exercises: 3 },
-    ],
-  }
-
   return (
     <div>
       <Header course={course.name} />
