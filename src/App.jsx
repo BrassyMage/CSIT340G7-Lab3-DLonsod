@@ -18,11 +18,11 @@ const Total = (props) => {
 
 const App = () => {
   const course = 'CSIT340 - Industry Elective 1'
-  const part1 = 'Data Structures and Algorithms'
+  const part1 = 'CSIT321 - Applications Development and Emerging Technologies'
   const exercises1 = 3
-  const part2 = 'Object-Oriented Programming'
+  const part2 = 'CSIT327 - Information Management 2'
   const exercises2 = 3
-  const part3 = 'Discrete Mathematics'
+  const part3 = 'CSITELEC1 - CSIT Elective 1'
   const exercises3 = 3
 
   return (
